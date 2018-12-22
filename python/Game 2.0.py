@@ -196,12 +196,12 @@ def Spil_1():
 
     pygame.display.set_caption('First Game')
 
-    walkRight = [pygame.image.load(path(ipath, 'R1.png')), pygame.image.load(path(ipath, 'R2.png'), pygame.image.load(path(ipath, 'R3.png'),
-                 pygame.image.load(path(ipath, 'R4.png'), pygame.image.load(path(ipath, 'R5.png'), pygame.image.load(path(ipath, 'R6.png'),
-                 pygame.image.load(path(ipath, 'R7.png'), pygame.image.load(path(ipath, 'R8.png'), pygame.image.load(path(ipath, 'R9.png')]
-    walkLeft = [pygame.image.load('L1.png'), pygame.image.load('L2.png'), pygame.image.load('L3.png'),
-                pygame.image.load('L4.png'), pygame.image.load('L5.png'), pygame.image.load('L6.png'),
-                pygame.image.load('L7.png'), pygame.image.load('L8.png'), pygame.image.load('L9.png')]
+    walkRight = [pygame.image.load(path(ipath,'R1.png')), pygame.image.load(path(ipath,'R2.png'), pygame.image.load(path(ipath,'R3.png'),
+                 pygame.image.load(path(ipath,'R4.png'), pygame.image.load(path(ipath,'R5.png'), pygame.image.load(path(ipath,'R6.png'),
+                 pygame.image.load(path(ipath,'R7.png'), pygame.image.load(path(ipath,'R8.png'), pygame.image.load(path(ipath,'R9.png')]
+    walkLeft = [pygame.image.load(path(ipath,'L1.png'), pygame.image.load(path(ipath,'L2.png'), pygame.image.load(path(ipath,'L3.png'),
+                pygame.image.load(path(ipath,'L4.png'), pygame.image.load(path(ipath,'L5.png'), pygame.image.load(path(ipath,'L6.png'),
+                pygame.image.load(path(ipath,'L7.png'), pygame.image.load(path(ipath,'L8.png'), pygame.image.load(path(ipath,'L9.png')]
 
     bg = pygame.image.load('bg.jpg')
     char = pygame.image.load('standing.png')
